@@ -81,6 +81,7 @@ h2, h3 {
     transition: 0.5s;
 }
 
+
 /*  style texte  */
 span {
     cursor: text;
@@ -222,13 +223,13 @@ a:active {
 
 @media(min-width:1000px){
     .bulle_info {
-        padding: 4px;
+        padding: 10px;
         margin: 2% 2% 2% 2%;
     }
 }
 @media(max-width:999px){
     .bulle_info {
-        padding: 2px;
+        padding: 1px;
         margin: 1% 1% 1% 1%;
     }
 }
@@ -246,7 +247,7 @@ a:active {
 
 @media(min-width:1000px){
     .bulle_action {
-        padding: 4px;
+        padding: 2px;
         margin: 2% 2% 2% 2%;
     }
 }
@@ -496,6 +497,10 @@ input {
 /* ==== VISEULLE APLIQUER ==== */
 /*=============================*/
 
+
+html {
+    scroll-behavior: smooth;
+}
 
 /*  body  */
 body {
