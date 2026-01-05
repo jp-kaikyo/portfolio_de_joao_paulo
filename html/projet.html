@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr">
 
     <!-- Métadonnées de la page -->
     <head>
         <meta charset="utf-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../style.css">
-        <script src="../script.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/affichage_info.js" defer></script>
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -19,7 +18,7 @@
 
 
     <body>
-
+        
 
         <!-- bannière des pages -->
         <header>
@@ -33,14 +32,14 @@
                 </section>
 
                 
-                <section class="bulle_info mobil millieux">
-                    <span id="NOM">pseudo</span> 
-                    <span id="NOM">nombre</span>
+                <section class="bulle_info mobil millieux" onclick="window.location.href='#lien'">
+                    <span class="nom_afichage">pseudo</span><br>
+                    <span class="date_afichage">nombre</span>
                 </section>
 
-                <section class="bulle_info PC">
-                    <span id="NOM">pseudo</span> 
-                    <span id="NOM">nombre</span>
+                <section class="bulle_info PC" onclick="window.location.href='#lien'">
+                    <span class="nom_afichage">pseudo</span> 
+                    <span class="date_afichage">nombre</span>
                 </section>
                 
 
@@ -58,26 +57,33 @@
         <!-- contenu de la page -->
         <main>
             <section class="bulle_secondaire">
-                <div class="bulle_info">
-                    <h2 id="moi">Moi</h2>
+                <h1>- Projet -</h1>
 
-                    <a href="../img/photo.jpg">
-                        <img class="photo" src="../img/photo.jpg" alt="joao paulo">
-                    </a>
-                    
-                    <p>Prénom : Joao Paulo.</p>
-                    <p>Nom de famille : Pinto Queiros.</p>
-                    <p>Âge : 19 ans.</p>
-                    <p>Née à : Montauban.</p>
-                    <p>Genre : Homme.</p>
+                <div class="bulle_info">
+                    <h2>Plan de route</h2>
+
+                    <p> Je compte tout mettre en œuvre pour devenir développeur web,  
+                        en simultané je développerai mes compétences de créateur de jeux et continuer mes projets de vidéo sur YouTube,  
+                        tout cela me permettra de multiplier mes compétences et projets.  
+                    </p>
                 </div>
-            
-                <div class="bulle_info">
-                    <h2 id="passion">Passion</h2>
 
-                    <p>Informatique.</p>
-                    <p>Création tous genres (art - jeux - vidéo).</p>
-                    <p>activiter physique (musculation - sport).</p>      
+                <div class="bulle_info">
+                    <h2>Futur projet</h2>
+
+                    <p>Développeur web.</p>
+                    <p>Développeur de jeux.</p>      
+                </div>
+
+                <div class="bulle_info">
+                    <h2 id="projet_actuelle">Projet actuelle</h2>
+
+                    <p><a target="_blank" href="https://github.com/jp-kaikyo/perso-site-web-portfolio-de-joao-paulo">Portoflio de Joao-Paulo Pinto-Queiros</a></p>
+                    <p><a target="_blank" href="https://github.com/jp-kaikyo/perso-jeux-triple-carte">Jeux Triple Carte (pierre feuille ciseau)</a></p>
+                    <p><a target="_blank" href="https://github.com/jp-kaikyo/perso_outil_calculatrice_simplifie">calculatrice simplifier</a></p>
+                    <p>Stream et rediffusion de contenu<br>
+                        sur Twitch et YouTube.
+                    </p>
                 </div>
             </section>
         </main>
@@ -85,7 +91,7 @@
 
         <!-- Pied de page lien pour réseaux sociaux -->
         <footer>
-            <nav class="bulle_lien">
+            <nav class="bulle_lien" id="lien">
                 <h3>~ Réseaux sociaux ~</h3>
 
                 <a target="_blank" href="https://www.instagram.com/kaikyo_dev/"

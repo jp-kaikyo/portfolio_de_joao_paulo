@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-
 <html lang="fr">
+
+    <!-- Métadonnées de la page -->
     <head>
-       <meta charset="utf-8" >
+        <meta charset="utf-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../style.css">
-        <script src="../script.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/affichage_info.js" defer></script>
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -32,14 +33,14 @@
                 </section>
 
                 
-                <section class="bulle_info mobil millieux">
-                    <span id="NOM">pseudo</span> 
-                    <span id="NOM">nombre</span>
+                <section class="bulle_info mobil millieux" onclick="window.location.href='#lien'">
+                    <span class="nom_afichage">pseudo</span><br>
+                    <span class="date_afichage">nombre</span>
                 </section>
 
-                <section class="bulle_info PC">
-                    <span id="NOM">pseudo</span> 
-                    <span id="NOM">nombre</span>
+                <section class="bulle_info PC" onclick="window.location.href='#lien'">
+                    <span class="nom_afichage">pseudo</span>
+                    <span class="date_afichage">nombre</span>
                 </section>
                 
 
@@ -54,29 +55,31 @@
         </header>
 
 
-       <!-- contenu de la page -->
+        <!-- contenu de la page -->
         <main>
             <section class="bulle_secondaire">
-                <div class="bulle_info">
-                    <h2> bloblo </h2>
+                <h1>- Information -</h1>
 
-                    <p><a href="information.html#moi">Moi</a></p>
-                    <p><a href="information.html#passion">Passion</a></p>
+                <div class="bulle_info">
+                    <h2 id="moi">Moi</h2>
+
+                    <a href="../img/photo.jpg">
+                        <img class="photo" src="../img/photo.jpg" alt="joao paulo">
+                    </a>
+                    
+                    <p>Prénom : Joao Paulo.</p>
+                    <p>Nom de famille : Pinto Queiros.</p>
+                    <p>Âge : 19 ans.</p>
+                    <p>Née à : Montauban.</p>
+                    <p>Genre : Homme.</p>
                 </div>
             
                 <div class="bulle_info">
-                    <h2> blabla </h2>
+                    <h2 id="passion">Passion</h2>
 
-                    <p><a href="competance.html#outil">Outil</a></p>
-                    <p><a href="competance.html#Langage_de_code">Langage de code</a></p>           
-                </div>
-            
-                <div class="bulle_info">
-                    <h2> blibli</h2>
-
-                    <p><a href="projet.html#plan_de_route">Plan de route</a></p>
-                    <p><a href="projet.html#futur_projet">Futur projet</a></p>
-                    <p><a href="projet.html#projet_actuelle">Projet actuelle</a></p>    
+                    <p>Informatique.</p>
+                    <p>Création tous genres (art - jeux - vidéo).</p>
+                    <p>activiter physique (musculation - sport).</p>      
                 </div>
             </section>
         </main>
@@ -84,7 +87,7 @@
 
         <!-- Pied de page lien pour réseaux sociaux -->
         <footer>
-            <nav class="bulle_lien">
+            <nav class="bulle_lien" id="lien">
                 <h3>~ Réseaux sociaux ~</h3>
 
                 <a target="_blank" href="https://www.instagram.com/kaikyo_dev/"

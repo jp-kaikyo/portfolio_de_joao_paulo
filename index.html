@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="../js/formulaire.js" defer></script>
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -15,20 +15,18 @@
         </header>
 
         <main>
-            <section>
-                <form action="" method="get">
-                    <fieldset>
-                        <legend>information</legend>
-                        <label for="prenom">prenom :</label>
-                        <input type="text" name="prenom" id="nom" required><br>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>information</legend>
+                    <label for="prenom">prenom :</label>
+                    <input type="text" name="prenom" id="nom"><br>
 
-                        <label for="date">votre date de naissance :</label>
-                        <input type="date" name="date" id="date" value="2025-08-17" min="1025-01-01" max="2025-08-10"><br>
+                    <label for="age">votre date de naissance :</label>
+                    <input type="number" name="age" id="date" value="2026-01-1701" min="1926-01-01" max="2016-01-01"><br>
 
-                        <button class="btn_base" id="btn_valide" onclick="window.location.href='pages/sommaire.html'">entrée</button>
-                    </fieldset>
-                </form>
-            </section>
+                    <button type="button" class="btn_base" id="btn_valide">Entrée</button>
+                </fieldset>
+            </form>
         </main>
     </body>
 </html>
