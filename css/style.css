@@ -98,6 +98,7 @@ p {
     font-size: var(--taille-texte);
     color: var(--texte-courant);
     line-height: 1.5;
+    padding: 10px 0px 10px 0px;
 }
 
 
@@ -107,6 +108,15 @@ a {
     font-style: oblique;
     font-weight: 500;
     text-decoration: underline;
+    color: var(--texte-courant);
+    line-height: 1.5;
+}
+
+li {
+    cursor: text;  
+    font-family: var(--police-texte);
+    font-weight: var(--gras-texte);
+    font-size: var(--taille-texte);
     color: var(--texte-courant);
     line-height: 1.5;
 }
