@@ -106,7 +106,9 @@ p {
 a {
     cursor: pointer;
     font-style: oblique;
-    font-weight: 500;
+    font-family: var(--police-texte);
+    font-weight: var(--gras-texte);
+    font-size: var(--taille-texte);
     text-decoration: underline;
     color: var(--texte-courant);
     line-height: 1.5;
