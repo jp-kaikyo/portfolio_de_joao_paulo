@@ -1,138 +1,5 @@
-/*==============================*/
-/* ==== PALETTE -- COULEUR ==== */
-/*==============================*/
-
-
-:root {
-    --fond-principal:#0F0F0F;
-    --font-contenu:#1A1A1A;
-    --font-contours:#2E2E2E;
-
-    --ombre-douce: #1A1A1A; 
-    --ombre-moyenne: #1F1F1F; 
-    --ombre-forte: #242424;  
-    
-    --texte-titre:#ffffff;
-    --texte-courant:#d1d1d1;
-    --texte-lien:#6f6f6f;
-    
-    --objet-survol:#6E40C9;
-    --objet-permanent:#8B5CF6; 
-    --objet-clic:#9B6DED;
-}
-
-
-
-
-/*==============================*/
-/* ==== PALETTE -- TEXTES ==== */
 /*=============================*/
-
-
-/*  Police d'écriture  */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
-
-:root {
-    --police-titre: "DM Serif Text", serif;
-    --police-texte: "Comic Neue", cursive;
-}
-
-
-/*  taille écran  */
-@media(min-width:1000px){
-    :root {
-    --taille-titre-principal: 1.75rem;
-    --taille-titre-second: 1.5rem;
-    --taille-texte: 1.25rem;
-    --gras-titre: 700;
-    --gras-texte: 400;   
-}}
-
-@media(max-width:999px){
-    :root {
-    --taille-titre-principal: 1.5rem;
-    --taille-titre-second: 1.25rem;  
-    --taille-texte: 1rem;
-    --gras-titre: 700;
-    --gras-texte: 400;     
-}}
-
-
-/*  style titre  */
-h1 {
-    cursor: text;  
-    font-family: var(--police-titre);
-    font-weight: var(--gras-titre);
-    font-size: var(--taille-titre-principal);
-    color: var(--texte-titre);
-    transition: 0.5s;
-}
-
-h2, h3 {
-    cursor: text;  
-    font-family: var(--police-titre);
-    font-weight: var(--gras-titre);
-    font-size: var(--taille-titre-second);
-    color: var(--texte-titre);
-    transition: 0.5s;
-}
-
-
-/*  style texte  */
-span {
-    cursor: text;
-    font-family: var(--police-texte);
-    font-weight: var(--gras-titre);
-    font-size: var(--taille-texte);
-    color: var(--texte-courant);
-    line-height: 2.50;
-}
-
-
-/*  style texte  */
-p {
-    cursor: text;  
-    font-family: var(--police-texte);
-    font-weight: var(--gras-texte);
-    font-size: var(--taille-texte);
-    color: var(--texte-courant);
-    line-height: 1.5;
-    padding: 10px 0px 10px 0px;
-}
-
-
-/*  style lien  */
-a {
-    cursor: pointer;
-    font-style: oblique;
-    font-weight: 500;
-    text-decoration: underline;
-    color: var(--texte-courant);
-    line-height: 1.5;
-}
-
-li {
-    cursor: text;  
-    font-family: var(--police-texte);
-    font-weight: var(--gras-texte);
-    font-size: var(--taille-texte);
-    color: var(--texte-courant);
-    line-height: 1.5;
-}
-
-
-/*  clic  */
-a:active {
-    cursor: pointer;
-    color: var(--objet-clic);
-}
-
-
-
-
-/*=============================*/
-/* ==== PALETTE -- BULLE ===== */
+/* ========== BULLE ========== */
 /*=============================*/
 
 
@@ -351,9 +218,9 @@ a:active {
 
 
 
-/*==========================*/
-/* ==== PALETTE -- BTN ==== */
-/*==========================*/
+/*===========================*/
+/* ========== BTN ========== */
+/*===========================*/
 
 
 /*  taille écran  */
@@ -400,9 +267,9 @@ a:active {
 
 
 
-/*===========================*/
-/* ==== PALETTE -- LOGO ==== */
-/*===========================*/
+/*==============================*/
+/* =========== LOGO =========== */
+/*==============================*/
 
 
 /*  taille écran  */
@@ -437,21 +304,4 @@ a:active {
         opacity: 50%;
         transition: 0.1s;
     }
-}
-
-
-
-
-/*=============================*/
-/* ==== VISEULLE APLIQUER ==== */
-/*=============================*/ 
-
-
-/*  body  */
-body {
-    background-color: var(--fond-principal);
-    text-align: center;
-}
-html {
-    scroll-behavior: smooth;
 }
