@@ -30,6 +30,7 @@
 
 
 /*  Police d'écriture  */
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
@@ -40,6 +41,7 @@
 
 
 /*  taille écran  */
+
 @media(min-width:1000px){
     :root {
     --taille-titre-principal: 1.75rem;
@@ -60,6 +62,7 @@
 
 
 /*  style titre  */
+
 h1 {
     cursor: text;  
     font-family: var(--police-titre);
@@ -80,6 +83,7 @@ h2, h3 {
 
 
 /*  style texte  */
+
 span {
     cursor: text;
     font-family: var(--police-texte);
@@ -88,7 +92,6 @@ span {
     color: var(--texte-courant);
     line-height: 2.50;
 }
-
 
 /*  style texte  */
 p {
@@ -100,7 +103,6 @@ p {
     line-height: 1.5;
     padding: 10px 0px 10px 0px;
 }
-
 
 /*  style lien  */
 a {
@@ -139,10 +141,12 @@ a:active {
 
 
 /*  body  */
+
 body {
     background-color: var(--fond-principal);
     text-align: center;
 }
+
 html {
     scroll-behavior: smooth;
 }

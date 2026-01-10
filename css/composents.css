@@ -281,12 +281,14 @@
 
 
 /*  taille écran  */
+
 @media(min-width:1000px){
     .logo {
         width: 40px;
         height: 40px;
     }
 }
+
 @media(max-width:999px){
     .logo {
         width: 30px;
