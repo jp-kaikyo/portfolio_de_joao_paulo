@@ -1,25 +1,17 @@
-# 📚 Bibliothèque dev web
+# 📚 Portoflio de joao paulo
 
 
-Mon historique de blocs de code qui me permet de réunir en un endroit tout le code que je crée pour mes projets pro ou perso en web.
+Un lieu idéal pour un recruteur, je réunis mes projets CV, 
+lettre de motivation ainsi que projet dans ce lieu si je condense la totalité de ce que je fais.
 
 
 ## ✨ Fonctionnalités
 
-### 🧮 Calcul simple
-- Addition automatique de deux nombres
-- Conversion des données avec `Number()`
-- Affichage du résultat dans la page
 
 ### 👤 Interaction utilisateur
-- Champ input pour entrer un prénom
-- Affichage dynamique du prénom saisi
+- Champ input pour entrer un prénom et un âge
+- Affichage dynamique du prénom saisi et de l'âge
 - Bouton de validation avec événement `onclick`
-
-### 🌐 Appel API
-- Récupération de l'heure en temps réel via WorldTimeAPI
-- Utilisation de `fetch()` pour les requêtes asynchrones
-- Affichage dynamique dans la page
 
 ### 🎨 Visuel et style
 - Système de bulles modulaires (principale, secondaire, info, action, lien)
@@ -32,9 +24,8 @@ Mon historique de blocs de code qui me permet de réunir en un endroit tout le c
 ## 🛠️ Technologies utilisées
 
 - HTML
-- CSS (variables CSS, media queries)
+- CSS (variables CSS, media queries, display)
 - JavaScript (vanilla)
-- API WorldTimeAPI
 
 
 ## 📖 Ce que j'ai appris
@@ -51,7 +42,7 @@ Mon historique de blocs de code qui me permet de réunir en un endroit tout le c
 
 1. Cloner le projet
 ```bash
-   git clone https://github.com/jp-kaikyo/bibliotheque_dev.git 
+   git clone https://github.com/jp-kaikyo/portoflio_de_joao_paulo.git 
 ```
 
 2. Ouvrir `index.html` dans un navigateur
@@ -61,16 +52,32 @@ Mon historique de blocs de code qui me permet de réunir en un endroit tout le c
 ```
 
 ├── css/
-│  └── style.css
+│  ├── base.css
+│  ├── composents.css
+│  ├── formulaire.css
+│  ├── grid.css
+│  ├── photo.css
+│  └── skills.css
+├── doc/
+│  ├── cv_joao_paulo.pdf
+│  └── lettre_motivation_joao_paulo.pdf
 ├── html/
+│  ├── Compétences.html
+│  ├── documents.html
+│  ├── Présentation.html
+│  ├── Projets.html
+│  └──  sommaire.html
 ├── img/
-│  └── insta.png
-│  └── tiktok.png
-│  └── twitch.png
-│  └── youtube.png
+│  ├── joao paulo/               
+│  |  └── photo de joao paulo.jpg
+│  └── logo/          
+│     ├── github.png
+│     ├── insta.png                    
+│     ├── tiktok.png                 
+│     ├── twitch.png
+│     └── youtube.png
 ├── js/
-│  └── api.js
-│  └── calcule.js
+│  ├── affichage_info.js
 │  └── formulaire.js
 ├── index.html
 ├── LICENSE
@@ -81,19 +88,6 @@ Mon historique de blocs de code qui me permet de réunir en un endroit tout le c
 
 ## 🎯 Utilisation
 
-
-### Modifier les valeurs de calcul
-Dans `index.html`, tu peux changer les valeurs dans les spans :
-```html
-<span id="A">1</span> + <span id="B">2</span>
-```
-Le JavaScript récupère automatiquement ces valeurs et affiche le résultat.
-
-### Changer l'API
-Remplace l'URL dans la fonction `fetch()` :
-```javascript
-let url = "https://worldtimeapi.org/api/timezone/Europe/Paris";
-```
 
 ### Personnaliser les couleurs
 Modifie les variables CSS dans `:root` :
@@ -107,7 +101,7 @@ Modifie les variables CSS dans `:root` :
 
 - Les images doivent rester dans le dossier `img/` pour que le HTML fonctionne
 - Le projet est volontairement simple et modulable
-- Facile d'ajouter de nouveaux composants ou exemples
+- Facile d'ajouter de nouveaux composants
 
 
 ## 🤝 Contribution
