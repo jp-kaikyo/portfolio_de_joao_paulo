@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     btn_valide.onclick = function() {
 
+        alert("il vous suffit de cliquer sur votre nom/age pour accéder à mon CV et lettre de motivation")
+
         let prenom = nom_input.value
         localStorage.setItem("nom", prenom)
 
