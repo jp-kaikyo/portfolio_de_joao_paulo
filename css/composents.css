@@ -4,6 +4,7 @@
 
 
 /*  Bulle Principal  */
+
 .bulle_principal {
     text-align: center;
     background-color: var(--font-contenu);
@@ -63,6 +64,7 @@
 
 
 /*  bulle_secondaire  */
+
 .bulle_secondaire {
     background-color: var(--font-contenu);
     color:var(--font-contours);
@@ -87,6 +89,7 @@
 
 
 /*  bulle_info  */
+
 .bulle_info {
     background-color: var(--font-contenu);
     border: solid var(--font-contours);
@@ -111,6 +114,7 @@
 
 
 /*  bulle_action  */
+
 .bulle_action {
     background-color: var(--font-contenu);
     border: solid var(--font-contours);
@@ -135,6 +139,7 @@
 
 
 /*  bulle_lien  */
+
 .bulle_lien {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -166,6 +171,7 @@
 
 
 /*  survol  */
+
 @media(min-width:1000px){
     .bulle_info:hover,
     .bulle_action:hover {
@@ -192,6 +198,7 @@
 
 
 /* clic  */
+
 @media(max-width:999px){
     .bulle_info:active,
     .bulle_action:active {
@@ -224,6 +231,7 @@
 
 
 /*  taille écran  */
+
 .btn_base {
     background-color: var(--font-contenu);
     color: var(--objet-permanent);
