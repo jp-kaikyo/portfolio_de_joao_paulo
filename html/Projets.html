@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/base.css">
         <link rel="stylesheet" href="../css/composents.css">
+        <link rel="stylesheet" href="../css/grid.css">
         <script src="../js/affichage_info.js" defer></script>
         <title>Portoflio de joao paulo</title>
     </head>
@@ -32,18 +33,19 @@
                     <span>Sommaire</span>
                 </section>
 
-                
-                <section class="bulle_info mobil millieux" onclick="window.location.href='#lien'">
+                <section class="bulle_info mobil millieux" onclick="window.location.href='document.html'">
                     <span class="nom_afichage">pseudo</span><br>
-                    <span class="date_afichage">nombre</span>
+                    <span class="date_afichage">nombre</span><br>
+                    <span>cv</span>
                 </section>
 
-                <section class="bulle_info PC" onclick="window.location.href='#lien'">
+                <section class="bulle_info PC" onclick="window.location.href='document.html'">
                     <span class="nom_afichage">pseudo</span>
                     <span>-</span>
                     <span class="date_afichage">nombre</span>
+                    <span>-</span>
+                    <span>cv</span>
                 </section>
-                
 
                 <section class="bulle_action droite_haut" onclick="window.location.href='Compétences.html'">
                     <span>Compétences</span>
@@ -64,34 +66,35 @@
                 <div class="bulle_info">
                     <h2 id="projets_web">Projets web</h2>
 
-                    <section>
+                    <section class="grid_projet">
                         <p> 📚 Bibliothèque dev web</p> 
 
                         <a target="_blank" href="https://github.com/jp-kaikyo/bibliotheque_dev">
                             📁 Code source
-                        </a> <br>
+                        </a>
+
                         <a target="_blank" href="https://jp-kaikyo.github.io/bibliotheque_dev/">
                             🌐 Voir le site
                         </a>
                     </section>
 
-                    <section>
+                    <section class="grid_projet">
                         <p> 📚 Linktree Kaikyo</p> 
 
                         <a target="_blank" href="https://github.com/jp-kaikyo/linktree_kaikyo">
                             📁 Code source
-                        </a> <br>
+                        </a>
                         <a target="_blank" href="https://jp-kaikyo.github.io/linktree_kaikyo/">
                             🌐 Voir le site
                         </a>
                     </section>
 
-                    <section>
+                    <section class="grid_projet">
                         <p> 📚 Catalogue Anime </p> 
 
                         <a target="_blank" href="https://github.com/jp-kaikyo/catalogue_anime">
                             📁 Code source
-                        </a> <br>
+                        </a>
                         <a target="_blank" href="https://jp-kaikyo.github.io/catalogue_anime/">
                             🌐 Voir le site
                         </a>
@@ -118,7 +121,7 @@
                     </p>
 
                     <p> 
-                        je réalise des jeux sur Godo pour ensuite faire des vidéos courtes sur ces jeux, 
+                        Et je réalise des jeux sur Godo pour ensuite faire des vidéos courtes sur ces jeux, 
                         et construire sur le long terme une communauté autour d'une même passion 
                     </p>
                 </div>
@@ -128,7 +131,7 @@
 
         <!-- Pied de page lien pour réseaux sociaux -->
         <footer>
-            <nav class="bulle_lien" id="lien">
+            <nav class="bulle_lien" >
                 <h3>~ Réseaux sociaux ~</h3>
 
                 <a target="_blank" href="https://www.instagram.com/kaikyo_dev/" class="tooltip-container">
