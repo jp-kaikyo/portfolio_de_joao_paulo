@@ -1,0 +1,35 @@
+/*============================*/
+/* ========== grid ========== */
+/*============================*/
+
+
+/*  grid_projet  */
+
+.grid_projet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    align-items: center;
+}
+.grid_projet p {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+@media(min-width:1000px){
+    .grid_projet {
+        margin: 0% 25% 0% 25%;
+        padding: 10px 0px 20px 0px;
+    }
+}
+
+@media(max-width:999px){
+    .grid_projet {
+        margin: 0% 2.5% 0% 2.5%;
+        padding: 10px 0px 20px 0px;
+    }
+}
+
+
+/*  grid_projet  */
+
