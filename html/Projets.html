@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-    <!-- Métadonnées de la page -->
     <head>
         <meta charset="utf-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,64 +9,54 @@
         <title>Portoflio de joao paulo</title>
     </head>
 
-
-
-
-    <!-------------------------------->
-    <!-- Contenu visible de la page -->
-    <!-------------------------------->
-
-
     <body>
-        
-
-        <!-- bannière des pages -->
-
         <header>
+
+            <!---- INFO : bannière des pages -->
             <nav class="bulle_principal">
-                <section class="bulle_action gauche_haut" onclick="window.location.href='Présentation.html'">
+                <div class="bulle_action gauche_haut" onclick="window.location.href='Présentation.html'">
                     <span>Présentation</span>
-                </section>
+                </div>
                 
-                <section class="bulle_action gauche_bas" onclick="window.location.href='sommaire.html'">
+                <div class="bulle_action gauche_bas" onclick="window.location.href='sommaire.html'">
                     <span>Sommaire</span>
-                </section>
+                </div>
 
-                <section class="bulle_info mobil millieux" onclick="window.location.href='documents.html'">
+                <div class="bulle_info mobil millieux" onclick="window.location.href='documents.html'">
                     <span class="nom_afichage">pseudo</span><br>
-                    <span class="date_afichage">nombre</span><br>
+                    <span class="age_afichage">nombre</span><br>
                     <span>cv</span>
-                </section>
+                </div>
 
-                <section class="bulle_info PC" onclick="window.location.href='documents.html'">
+                <div class="bulle_info PC" onclick="window.location.href='documents.html'">
                     <span class="nom_afichage">pseudo</span>
                     <span>-</span>
-                    <span class="date_afichage">nombre</span>
+                    <span class="age_afichage">nombre</span>
                     <span>-</span>
                     <span>cv</span>
-                </section>
+                </div>            
 
-                <section class="bulle_action droite_haut" onclick="window.location.href='Compétences.html'">
+                <div class="bulle_action droite_haut" onclick="window.location.href='Competences.html'">
                     <span>Compétences</span>
-                </section>
+                </div>
 
-                <section class="bulle_action droite_bas" onclick="window.location.href='Projets.html'">
+                <div class="bulle_action droite_bas" onclick="window.location.href='Projets.html'">
                     <span>Projets</span>
-                </section>
+                </div>
             </nav>
         </header>
 
 
-        <!-- contenu de la page -->
+       <!---- INFO : contenu de la page  ---->
 
         <main>
             <section class="bulle_secondaire">
                 <h1>- Projets -</h1>
                
-                <div class="bulle_info">
+                <section class="bulle_info">
                     <h2 id="projets_web">Projets web</h2>
 
-                    <section class="grid_projet">
+                    <div class="grid_projet">
                         <p> 📚 Bibliothèque dev web</p> 
 
                         <a target="_blank" href="https://github.com/jp-kaikyo/bibliotheque_dev">
@@ -78,9 +66,9 @@
                         <a target="_blank" href="https://jp-kaikyo.github.io/bibliotheque_dev/">
                             🌐 Voir le site
                         </a>
-                    </section>
+                    </div>
 
-                    <section class="grid_projet">
+                    <div class="grid_projet">
                         <p> 📚 Linktree Kaikyo</p> 
 
                         <a target="_blank" href="https://github.com/jp-kaikyo/linktree_kaikyo">
@@ -89,9 +77,9 @@
                         <a target="_blank" href="https://jp-kaikyo.github.io/linktree_kaikyo/">
                             🌐 Voir le site
                         </a>
-                    </section>
+                    </div>
 
-                    <section class="grid_projet">
+                    <div class="grid_projet">
                         <p> 📚 Catalogue Anime </p> 
 
                         <a target="_blank" href="https://github.com/jp-kaikyo/catalogue_anime">
@@ -100,20 +88,24 @@
                         <a target="_blank" href="https://jp-kaikyo.github.io/catalogue_anime/">
                             🌐 Voir le site
                         </a>
-                    </section>
-                </div>
+                    </div>
+                </section>
 
-                <!--  Inutile pour le moment
-                    <div class="bulle_info">
+
+
+
+                <!-- TODO : quand un projet ou plusieurs en jeux seront faits, ajoute-le ici
+                    <section class="bulle_info">
                         <h2 id="projets_jeux">Projets jeux</h2>
 
-                        <p>1 : HTML</p>
-                        <p>2 : CSS</p>
-                        <p>3 : JavaScript</p> 
-                    </div>
+                        <p></p>
+                    </section>
                 -->
 
-                <div class="bulle_info">
+                
+
+
+                <section class="bulle_info">
                     <h2 id="projets_personnels">Projets personnels</h2>
 
                     <p> 
@@ -126,12 +118,12 @@
                         Et je réalise des jeux sur Godo pour ensuite faire des vidéos courtes sur ces jeux, 
                         et construire sur le long terme une communauté autour d'une même passion 
                     </p>
-                </div>
+                </section>
             </section>
         </main>
 
 
-        <!-- Pied de page lien pour réseaux sociaux -->
+        <!---- INFO : Pied de page lien pour réseaux sociaux  ---->
          
         <footer>
             <nav class="bulle_lien" >
