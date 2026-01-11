@@ -1,41 +1,7 @@
 # 📚 Portoflio de joao paulo
 
 
-Un lieu idéal pour un recruteur, je réunis mes projets CV, 
-lettre de motivation ainsi que projet dans ce lieu si je condense la totalité de ce que je fais.
-
-
-## ✨ Fonctionnalités
-
-
-### 👤 Interaction utilisateur
-- Champ input pour entrer un prénom et un âge
-- Affichage dynamique du prénom saisi et de l'âge
-- Bouton de validation avec événement `onclick`
-
-### 🎨 Visuel et style
-- Système de bulles modulaires (principale, secondaire, info, action, lien)
-- Effets hover et clic avec animations CSS
-- Design responsive (écrans >1000px et <999px)
-- Boutons et logos animés
-- Footer avec liens vers réseaux sociaux
-
-
-## 🛠️ Technologies utilisées
-
-- HTML
-- CSS (variables CSS, media queries, display)
-- JavaScript (vanilla)
-
-
-## 📖 Ce que j'ai appris
-
-- Manipuler le DOM avec JavaScript (`getElementById`, `innerHTML`, `onclick`)
-- Récupérer et afficher des données depuis une API avec `fetch()`
-- Gérer des événements utilisateur (click, input)
-- Convertir et utiliser des données dynamiques
-- Créer un système de design modulaire avec variables CSS
-- Rendre un site responsive avec media queries
+Portfolio personnel regroupant mes projets, mon CV et ma lettre de motivation.
 
 
 ## 📥 Installation
@@ -48,7 +14,15 @@ lettre de motivation ainsi que projet dans ce lieu si je condense la totalité d
 2. Ouvrir `index.html` dans un navigateur
 
 
+## 🛠️ Technologies
+
+- HTML
+- CSS
+- JavaScript
+
+
 ## 📁 Structure du projet
+
 ```
 
 ├── css/
@@ -62,14 +36,14 @@ lettre de motivation ainsi que projet dans ce lieu si je condense la totalité d
 │  ├── cv_joao_paulo.pdf
 │  └── lettre_motivation_joao_paulo.pdf
 ├── html/
-│  ├── Compétences.html
+│  ├── Competences.html
 │  ├── documents.html
 │  ├── Présentation.html
 │  ├── Projets.html
 │  └──  sommaire.html
 ├── img/
-│  ├── joao paulo/               
-│  |  └── photo de joao paulo.jpg
+│  ├── joao-paulo/               
+│  |  └── photo-de-joao-paulo.jpg
 │  └── logo/          
 │     ├── github.png
 │     ├── insta.png                    
@@ -84,31 +58,6 @@ lettre de motivation ainsi que projet dans ce lieu si je condense la totalité d
 └── README.md
 
 ```
-
-
-## 🎯 Utilisation
-
-
-### Personnaliser les couleurs
-Modifie les variables CSS dans `:root` :
-```css
---fond-principal: #0F0F0F;
---objet-permanent: #8B5CF6;
-```
-
-
-## 📝 Notes
-
-- Les images doivent rester dans le dossier `img/` pour que le HTML fonctionne
-- Le projet est volontairement simple et modulable
-- Facile d'ajouter de nouveaux composants
-
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésite pas à :
-- Ouvrir une **issue** pour signaler un bug
-- Proposer une **pull request** pour ajouter des fonctionnalités
 
 
 ## 📄 Licence
