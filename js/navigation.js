@@ -3,46 +3,44 @@
 ///======================///
 
 
-/// INFO : navigation presentation  ///
-
 document.addEventListener("DOMContentLoaded", function() {
-    btn_nav_presentation.onclick = function() {
+
+
+    /// INFO : navigation presentation  ///
+
+    nav_presentation.onclick = function() {
         window.location ='presentation.html';  
     }
-})
 
 
-/// INFO : navigation sommaire  ///
+    /// INFO : navigation sommaire  ///
 
-document.addEventListener("DOMContentLoaded", function() {
-    btn_nav_sommaire.onclick = function() {
+    nav_sommaire.onclick = function() {
         window.location ='sommaire.html';  
     }
-})
 
 
-/// INFO : navigation documents  ///
+    /// INFO : navigation documents  ///
 
-document.addEventListener("DOMContentLoaded", function() {
-    btn_nav_documents.onclick = function() {
+    nav_documents_mobil.onclick = function() {
         window.location ='documents.html';  
     }
-})
+
+    nav_documents_pc.onclick = function() {
+        window.location ='documents.html';  
+    }
 
 
-/// INFO : navigation competences  ///
+    /// INFO : navigation competences  ///
 
-document.addEventListener("DOMContentLoaded", function() {
-    btn_nav_competences.onclick = function() {
+    nav_competences.onclick = function() {
         window.location ='competences.html';  
     }
-})
 
 
-/// INFO : navigation projets  ///
+    /// INFO : navigation projets  ///
 
-document.addEventListener("DOMContentLoaded", function() {
-    btn_nav_projets.onclick = function() {
+    nav_projets.onclick = function() {
         window.location ='projets.html';  
     }
 })

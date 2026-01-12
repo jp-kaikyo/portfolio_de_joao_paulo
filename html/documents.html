@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="../css/base.css">
         <link rel="stylesheet" href="../css/composents.css">
         <script src="../js/affichage_info.js" defer></script>
+        <script src="../js/navigation.js" defer></script>
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -14,21 +15,21 @@
 
             <!-- INFO : bannière des pages -->
             <nav class="bulle_principal">
-                <div class="bulle_action gauche_haut" onclick="window.location.href='presentation.html'">
+                <div class="bulle_action gauche_haut" id="nav_presentation">
                     <span>Présentation</span>
                 </div>
                 
-                <div class="bulle_action gauche_bas" onclick="window.location.href='sommaire.html'">
+                <div class="bulle_action gauche_bas" id="nav_sommaire">
                     <span>Sommaire</span>
                 </div>
 
-                <div class="bulle_info mobil millieux" onclick="window.location.href='documents.html'">
+                <div class="bulle_info mobil millieux" id="nav_documents_mobil">
                     <span class="nom_afichage">pseudo</span><br>
                     <span class="age_afichage">nombre</span><br>
                     <span>cv</span>
                 </div>
 
-                <div class="bulle_info PC" onclick="window.location.href='documents.html'">
+                <div class="bulle_info PC" id="nav_documents_pc">
                     <span class="nom_afichage">pseudo</span>
                     <span>-</span>
                     <span class="age_afichage">nombre</span>
@@ -36,11 +37,11 @@
                     <span>cv</span>
                 </div>                       
 
-                <div class="bulle_action droite_haut" onclick="window.location.href='competences.html'">
+                <div class="bulle_action droite_haut"  id="nav_competences">
                     <span>Compétences</span>
                 </div>
 
-                <div class="bulle_action droite_bas" onclick="window.location.href='projets.html'">
+                <div class="bulle_action droite_bas" id="nav_projets">
                     <span>Projets</span>
                 </div>
             </nav>
